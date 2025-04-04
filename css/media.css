@@ -1,0 +1,155 @@
+
+@media screen and (max-width:1200px) {
+    /* navbar responsive */
+    div.navbar .navbar-links{
+       display: none;
+   }
+   div.navbar div.container .mode-icon .menu{
+       display: block;
+   }
+}
+
+@media screen and (max-width:992px) {
+   
+   /* Home responsive */
+   div.home-section div.home-container .home-image{
+       width:100%;
+   }
+   div.home-section div.home-container .home-content{
+       width: 100%;
+       align-items: center;
+   }
+   div.home-section div.home-container .home-content .btn-group{
+       justify-content: space-evenly;
+   }
+  
+   div.home-section div.home-container{
+       flex-direction: column-reverse;
+   }
+   div.home-section{
+       text-align: center;
+   }
+    /* Chefs */
+    .pro-chef-section .item{
+       width:calc(50% - 10px);
+   }
+   /* Gellary */
+   .gallery-grid {
+       grid-template-columns: repeat(2,1fr);
+       grid-template-rows: repeat(23,1fr);
+       grid-template-areas:
+         "image1 image2"
+         "image1 image2"
+         "image1 image2"
+         "image1 image2"
+         "image3 image2"
+         "image3 image2"
+         "image3 image2"
+         "image3 image2"
+         "image4 image2"
+         "image4 image2"
+         "image4 image5"
+         "image4 image5"
+         "image4 image5"
+         "image4 image5"
+         "image4 image6"
+         "image4 image6"
+         "image4 image6"
+         "image7 image6"
+         "image7 image6"
+         "image7 image6"
+         "image7 ."
+         "image7 ."
+         "image7 .";
+     }
+
+     
+  }
+
+@media screen and (max-width:768px) {
+   /* contact us */
+   .contact-us-content .details .details-item {
+       width: calc(100% - 10px);
+   }
+   /* contact us */
+   .contact-us-section .contact-us-content form .inside{
+       width:calc(100% - 8px);
+   }
+}
+
+@media screen and (max-width:680px) {
+    /* Chefs */
+    .pro-chef-section .item{
+       width:100%;}
+       /* Gallery */
+     .gallery-grid{  
+           grid-template-columns: 1fr;
+           grid-template-rows:repeat(43.1fr);
+           grid-template-areas:
+             "image1"
+             "image1"
+             "image1"
+             "image1"
+             "image3"
+             "image3"
+             "image3"
+             "image3"
+             "image4"
+             "image4"
+             "image4"
+             "image4"
+             "image4"
+             "image4"
+             "image4"
+             "image4"
+             "image4"
+             "image7"
+             "image7"
+             "image7"
+             "image7"
+             "image7"
+             "image7"
+             "image2"
+             "image2"
+             "image2"
+             "image2"
+             "image2"
+             "image2"
+             "image2"
+             "image2"
+             "image2"
+             "image2"
+             "image5"
+             "image5"
+             "image5"
+             "image5"
+             "image6"
+             "image6"
+             "image6"
+             "image6"
+             "image6"
+             "image6";
+         }
+
+         
+   /* .footer */
+   .footer .footer-content {
+       width: 90%;
+       text-align: center;
+       flex-wrap: wrap;
+       } 
+       .mealify-section{
+           width: calc(100% - 20px);
+       }
+       .subscribe-section{
+           width: calc(100% - 20px);
+       }
+       .stay-in-touch-section{
+           width: calc(100% - 20px);
+           color:white;
+       }
+       
+   
+}
+
+
